@@ -56,6 +56,14 @@ $(document).on("click", ".saveBtn", function(){
     localStorage.setItem(num, content);
 })
 
+$("#clear").on("click", function(){
+    for(i=0; i<textArray.length; i++){
+        var textBox = textArray[i];
+        textBox.text("");
+        localStorage.clear();
+    }
+})
+
 
 updateHour();
 renderSaved();
