@@ -1,2 +1,0 @@
-# Daily-Schedule
-Daily schedule
