@@ -42,7 +42,7 @@ textarea{
   color: #000000;
   border-top: 1px dashed #000000;
   float: left;
-  margin-right: 10px;
+  margin-right: 9px;
 }
 
 .past {
@@ -69,8 +69,8 @@ textarea{
   float:right;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn:hover {
+  font-size: 30px;
   transition: all .3s ease-in-out;
 }
 
