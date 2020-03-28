@@ -16,6 +16,8 @@ $(document).on("click", ".saveBtn", function(){
 })
 ```
 
+The number 9 is used here since the sschedule begins at 9:00, or hour 9 of the day.
+
 After the data is stored, it is recalled from the local storage using a function that automatically runs every time the page is refreshed. Here is the second function for recalling the data:
 
 ```
